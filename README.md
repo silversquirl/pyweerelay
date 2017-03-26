@@ -7,6 +7,6 @@ A WeeChat relay client library in pure Python.
 ```python
 from pyweerelay import Relay
 with Relay("localhost") as r:
-  r.command("core.weechat", "print Hello from PyWeeRelay!")
+    r.command("core.weechat", "print Hello from PyWeeRelay!")
 ```
 
